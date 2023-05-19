@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-    private static final String MSG = "Hello";
+    private static final String MSG = "Hello World";
 
     @Value("${hello.msg}")
     private String msg;
